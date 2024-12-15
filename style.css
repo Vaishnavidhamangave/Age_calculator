@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f0f7; /* Light blue background for a calming effect */
+  }
+  
+  /* Container Styling */
+  .container {
+    text-align: center;
+    background: #ffffff; /* White card background */
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    width: 350px;
+  }
+  
+  /* Title Styling */
+  .container h1 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark grayish blue for the title */
+    font-size: 1.8em;
+  }
+  
+  /* Label Styling */
+  .container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #34495e; /* Muted grayish blue for labels */
+    font-weight: bold;
+  }
+  
+  /* Input Field Styling */
+  .container input {
+    padding: 10px;
+    width: calc(100% - 20px); /* Maintain responsive design */
+    margin-bottom: 15px;
+    border: 2px solid #bdc3c7; /* Light gray border */
+    border-radius: 6px;
+    font-size: 1em;
+    color: #2c3e50;
+    background-color: #f9f9f9; /* Subtle off-white background */
+  }
+  
+  .container input:focus {
+    border-color: #5a67d8; /* Blue border on focus */
+    outline: none;
+    background-color: #eef3fc; /* Slight blue tint on focus */
+  }
+  
+  /* Button Styling */
+  .container button {
+    padding: 12px 20px;
+    background-color: #5a67d8; /* Vibrant blue for the button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #434190; /* Darker blue on hover */
+  }
+  
+  /* Result Display Styling */
+  .result {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #27ae60; /* Calming green for results */
+    font-weight: bold;
+  }
+  
